@@ -9,7 +9,14 @@ script.js       dark-mode toggle, mobile menu, active nav link
 assets/
   cv.pdf        CV linked from the "CV" buttons. Replace it to update.
   favicon.svg
-  photo.jpg     add this (square, ~600×600). An "AS" monogram shows until it exists.
+  photo.jpg     your portrait at 190px, plus photo@2x.jpg (380px) and
+                photo@3x.jpg (570px). The browser picks whichever matches the
+                screen. Don't point the page at a huge original: letting the
+                browser shrink a 2000px photo to 190px causes bright speckling.
+                To swap the photo, crop it square and export all three sizes.
+                An "AS" monogram shows if the files are missing.
+  fonts/        Lora, Inter and Crimson, subsetted and self-hosted (~22 KB each,
+                SIL Open Font License). Nothing is loaded from Google or any CDN.
 .nojekyll       tells GitHub Pages to serve the files as-is
 ```
 
@@ -18,6 +25,7 @@ assets/
 - **Add a publication:** copy a `<li class="pub">` block (see `PUBLICATION START`) to the top of the list.
 - **Add a position or degree:** copy an `<article class="entry">` block (see `ENTRY START`).
 - **Update the CV:** overwrite `assets/cv.pdf` with the same file name.
+- **Change the fonts:** edit `--serif` and `--sans` near the top of `style.css`. Three families are already bundled; the comment there shows two alternative combinations.
 - **Change the domain/username:** update the `canonical`, `og:url` and `og:image` URLs in the `<head>`.
 
 ## Preview locally

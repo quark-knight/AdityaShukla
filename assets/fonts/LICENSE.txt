@@ -1,0 +1,7 @@
+Lora        - SIL Open Font License 1.1 - Cyreal (https://fonts.google.com/specimen/Lora)
+Inter       - SIL Open Font License 1.1 - Rasmus Andersson (https://rsms.me/inter/)
+Crimson Text- SIL Open Font License 1.1 - Sebastian Kosch (https://fonts.google.com/specimen/Crimson+Text)
+
+These files are latin-subset WOFF conversions of the originals, redistributed
+under the SIL Open Font License 1.1, which permits embedding and redistribution.
+Full licence text: https://openfontlicense.org/
