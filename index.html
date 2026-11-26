@@ -1,0 +1,498 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- ============================================================
+       SEO / SOCIAL PREVIEW
+       Replace https://quark-knight.github.io/ below if your GitHub
+       username or custom domain is different.
+       ============================================================ -->
+  <title>Aditya Shukla | Prospective PhD Student, IISER Pune</title>
+  <meta name="description" content="Aditya Shukla: Project Associate-I at IISER Pune and prospective PhD student. Research interests: data-driven multiscale modelling and simulation, equivariant machine-learned interatomic potentials, ML for atomistic and coarse-grained simulation and enhanced sampling.">
+  <meta name="author" content="Aditya Shukla">
+  <link rel="canonical" href="https://quark-knight.github.io/">
+
+  <meta property="og:type" content="profile">
+  <meta property="og:title" content="Aditya Shukla | Prospective PhD Student">
+  <meta property="og:description" content="Project Associate-I at IISER Pune. Data-driven multiscale modelling and simulation; equivariant machine-learned interatomic potentials.">
+  <meta property="og:url" content="https://quark-knight.github.io/">
+  <!-- og:image works once assets/photo.jpg exists -->
+  <meta property="og:image" content="https://quark-knight.github.io/assets/photo.jpg">
+  <meta name="twitter:card" content="summary">
+
+  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+  <meta name="theme-color" content="#1d5c80">
+
+  <!-- Applies the saved theme before first paint (avoids a light/dark flash) -->
+  <script>
+    try {
+      var t = localStorage.getItem("theme");
+      if (t === "dark" || t === "light") document.documentElement.setAttribute("data-theme", t);
+    } catch (e) {}
+  </script>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- Icon sprite (used by the link buttons). No need to edit. -->
+<svg xmlns="http://www.w3.org/2000/svg" style="display:none" aria-hidden="true">
+  <symbol id="i-mail" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" d="M4 5h16a1 1 0 0 1 1 1v12a1 1 0 0 1-1 1H4a1 1 0 0 1-1-1V6a1 1 0 0 1 1-1zm-1 1 9 7 9-7"/></symbol>
+  <symbol id="i-github" viewBox="0 0 24 24"><path fill="currentColor" d="M12 .5a11.5 11.5 0 0 0-3.64 22.41c.58.1.79-.25.79-.56v-2c-3.2.7-3.87-1.37-3.87-1.37-.53-1.33-1.28-1.69-1.28-1.69-1.05-.71.08-.7.08-.7 1.15.08 1.76 1.19 1.76 1.19 1.03 1.76 2.7 1.25 3.36.96.1-.75.4-1.25.73-1.54-2.55-.29-5.24-1.28-5.24-5.68 0-1.25.45-2.28 1.18-3.08-.12-.29-.51-1.46.11-3.04 0 0 .97-.31 3.17 1.18a11 11 0 0 1 5.77 0c2.2-1.49 3.17-1.18 3.17-1.18.62 1.58.23 2.75.11 3.04.74.8 1.18 1.83 1.18 3.08 0 4.41-2.69 5.38-5.26 5.67.41.36.78 1.06.78 2.14v3.17c0 .31.21.67.8.56A11.5 11.5 0 0 0 12 .5z"/></symbol>
+  <symbol id="i-linkedin" viewBox="0 0 24 24"><path fill="currentColor" d="M4.98 3.5a2.5 2.5 0 1 1 0 5 2.5 2.5 0 0 1 0-5zM3 9.5h4V21H3zM9.5 9.5h3.8v1.6h.06c.53-1 1.83-2.06 3.77-2.06 4.03 0 4.77 2.65 4.77 6.1V21h-4v-5.2c0-1.24-.02-2.84-1.73-2.84-1.73 0-2 1.35-2 2.75V21h-4z"/></symbol>
+  <symbol id="i-orcid" viewBox="0 0 24 24"><circle cx="12" cy="12" r="10.5" fill="none" stroke="currentColor" stroke-width="2"/><path fill="currentColor" d="M8 10h1.7v7H8zM8.85 6.6a1 1 0 1 1 0 2 1 1 0 0 1 0-2zM11.3 10h2.6c2.5 0 3.7 1.8 3.7 3.5 0 1.9-1.4 3.5-3.7 3.5h-2.6zm1.7 1.5v4h.8c1.6 0 2.1-1.1 2.1-2s-.6-2-2.1-2z"/></symbol>
+  <symbol id="i-scholar" viewBox="0 0 24 24"><path fill="currentColor" d="M12 3 1 9l11 6 9-4.9V17h2V9zm-6 9.2V16c0 1.7 2.7 3 6 3s6-1.3 6-3v-3.8l-6 3.3z"/></symbol>
+  <symbol id="i-file" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" d="M14 3H6a1 1 0 0 0-1 1v16a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1V8zm0 0v5h5M9 13h6M9 17h6"/></symbol>
+  <symbol id="i-sun" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><circle cx="12" cy="12" r="4"/><path d="M12 2v2M12 20v2M4.9 4.9l1.4 1.4M17.7 17.7l1.4 1.4M2 12h2M20 12h2M4.9 19.1l1.4-1.4M17.7 6.3l1.4-1.4"/></g></symbol>
+  <symbol id="i-moon" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round" d="M21 12.8A9 9 0 1 1 11.2 3a7 7 0 0 0 9.8 9.8z"/></symbol>
+</svg>
+
+<a class="skip-link" href="#main">Skip to content</a>
+
+<!-- ============================================================
+     NAVIGATION
+     To add or remove a section, edit the <li> items here and the
+     matching <section id="..."> below.
+     ============================================================ -->
+<header class="site-header">
+  <nav class="nav container" aria-label="Main">
+    <a class="nav-brand" href="#top">Aditya Shukla</a>
+    <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="nav-links">
+      <span class="visually-hidden">Menu</span>
+      <span class="bars" aria-hidden="true"></span>
+    </button>
+    <ul class="nav-links" id="nav-links">
+      <li><a href="#about">About</a></li>
+      <li><a href="#education">Education</a></li>
+      <li><a href="#experience">Research</a></li>
+      <li><a href="#outputs">Outputs</a></li>
+      <li><a href="#projects">Projects</a></li>
+      <li><a href="#skills">Skills</a></li>
+      <li><a href="#awards">Awards</a></li>
+      <li><a href="#service">Service</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+    <button class="theme-toggle" type="button" aria-label="Switch to dark mode">
+      <svg class="icon icon-moon" aria-hidden="true"><use href="#i-moon"/></svg>
+      <svg class="icon icon-sun" aria-hidden="true"><use href="#i-sun"/></svg>
+    </button>
+  </nav>
+</header>
+
+<main id="main">
+
+  <!-- ==========================================================
+       1. HERO
+       ========================================================== -->
+  <section class="hero container" id="top" aria-label="Introduction">
+    <div class="hero-photo">
+      <!-- Put your photo at assets/photo.jpg (square, about 600x600 px).
+           Until it exists, the "AS" monogram is shown instead. -->
+      <img src="assets/photo.jpg" alt="Portrait of Aditya Shukla" width="220" height="220"
+           onerror="this.hidden=true; this.nextElementSibling.hidden=false;">
+      <div class="monogram" hidden aria-hidden="true">AS</div>
+    </div>
+    <div class="hero-text">
+      <h1>Aditya Shukla</h1>
+      <!-- TODO: once you settle on a target field, you could change this to e.g.
+           "Prospective PhD student in <your field>" -->
+      <p class="hero-title">Prospective PhD student &middot; Project Associate-I, IISER Pune</p>
+      <!-- TODO: optional, replace with a one-line tagline in your own words -->
+      <p class="hero-tagline">Data-driven multiscale modelling and simulation; equivariant machine-learned interatomic potentials</p>
+      <ul class="link-row">
+        <li><a class="btn" href="mailto:aditya.shukla@students.iiserpune.ac.in"><svg class="icon" aria-hidden="true"><use href="#i-mail"/></svg>Email</a></li>
+        <li><a class="btn" href="https://github.com/quark-knight" rel="noopener"><svg class="icon" aria-hidden="true"><use href="#i-github"/></svg>GitHub</a></li>
+        <li><a class="btn" href="https://www.linkedin.com/in/aditya-shukla-IISER" rel="noopener"><svg class="icon" aria-hidden="true"><use href="#i-linkedin"/></svg>LinkedIn</a></li>
+        <li><a class="btn" href="https://orcid.org/0009-0006-5209-7213" rel="noopener"><svg class="icon" aria-hidden="true"><use href="#i-orcid"/></svg>ORCID</a></li>
+        <!-- Uncomment and add your profile URL when you have a Google Scholar page:
+        <li><a class="btn" href="https://scholar.google.com/citations?user=YOUR_ID" rel="noopener"><svg class="icon" aria-hidden="true"><use href="#i-scholar"/></svg>Scholar</a></li>
+        -->
+        <li><a class="btn btn-primary" href="assets/cv.pdf"><svg class="icon" aria-hidden="true"><use href="#i-file"/></svg>CV (PDF)</a></li>
+      </ul>
+    </div>
+  </section>
+
+  <!-- ==========================================================
+       2. ABOUT / RESEARCH INTERESTS
+       ========================================================== -->
+  <section class="section container" id="about" aria-labelledby="about-h">
+    <h2 id="about-h">About</h2>
+    <div class="prose">
+      <!-- TODO (most important): add 2–3 sentences on your research interests in your
+           own words here, e.g. what questions excite you and what you want to do in a PhD.
+      <p>…</p>
+      -->
+      <p>I am a Project Associate-I with Prof. M.&nbsp;S. Madhusudhan at IISER Pune, where I completed a BS-MS dual degree with a major in Physics (2020–2025). My master’s thesis was an industrial research internship at BIOVIA, Dassault Systèmes, Cambridge, UK, on applications of multi-scale simulations to battery material modeling.</p>
+      <h3>Research interests</h3>
+      <ul class="interests">
+        <li>Data-driven multiscale modelling and simulation</li>
+        <li>Equivariant machine-learned interatomic potentials</li>
+        <li>Development of ML techniques for ab-initio, atomistic, and coarse-grained simulations and enhanced sampling</li>
+        <li>Solvation and electrostatics in biomolecules, and their applications to molecular biophysics, self assembly, chemistry and protein design</li>
+        <li>Reinforcement learning</li>
+      </ul>
+    </div>
+  </section>
+
+  <!-- ==========================================================
+       3. EDUCATION
+       Copy one <article class="entry"> block to add a degree.
+       ========================================================== -->
+  <section class="section container" id="education" aria-labelledby="education-h">
+    <h2 id="education-h">Education</h2>
+
+    <!-- ENTRY START -->
+    <article class="entry">
+      <div class="entry-head">
+        <h3><a href="https://www.iiserpune.ac.in/" rel="noopener">Indian Institute of Science Education and Research (IISER), Pune</a></h3>
+        <p class="date">Aug 2020 – May 2025</p>
+      </div>
+      <p class="entry-sub">BS-MS Dual Degree &middot; Major: Physics</p>
+      <!-- TODO: add GPA/CGPA here if you want it shown (it is not in your CV) -->
+      <p>Master’s thesis: <em>Applications of multi-scale simulations to battery material modeling</em>
+        (<a href="https://drive.google.com/file/d/1mTRzf2BTSD2D9-RLOKNoDKcPTE7nvVoN/view?usp=sharing" rel="noopener">thesis report</a>).
+        Supervisor: Dr. Struan Robertson, Materials Studio, BIOVIA, Dassault Systèmes, Cambridge, UK.</p>
+    </article>
+    <!-- ENTRY END -->
+
+    <article class="entry">
+      <div class="entry-head">
+        <h3><a href="http://navodaya.gov.in/" rel="noopener">Jawahar Navodaya Vidyalaya, Raebareli</a></h3>
+        <p class="date">Apr 2017 – Apr 2019</p>
+      </div>
+      <p class="entry-sub">Higher Secondary Certificate (CBSE), Science stream &middot; School topper</p>
+    </article>
+  </section>
+
+  <!-- ==========================================================
+       4. RESEARCH EXPERIENCE
+       Copy one <article class="entry"> block to add a position.
+       ========================================================== -->
+  <section class="section container" id="experience" aria-labelledby="experience-h">
+    <h2 id="experience-h">Research Experience</h2>
+
+    <!-- ENTRY START -->
+    <article class="entry">
+      <div class="entry-head">
+        <h3>Project Associate-I</h3>
+        <p class="date">June 2026 – Present</p>
+      </div>
+      <p class="entry-sub">With <a href="https://cospi.iiserpune.ac.in/" rel="noopener">Prof. M.&nbsp;S. Madhusudhan</a>, IISER Pune</p>
+      <ul>
+        <li><strong>Partial charges:</strong> Computing DFT-derived partial charges for small proteins including explicit water with allosteric sites in different environments to improve electrostatics in MD; with training ML models to extend to large datasets.</li>
+        <li><strong>D-peptides:</strong> Designing D-peptides (protease-resistant peptidomimetics) to bind naturally occurring L-protein targets, starting from small therapeutic peptides.</li>
+        <li><strong>Ab–Ag:</strong> Protein–protein docking (HADDOCK3) and MD (GROMACS, CHARMM36m) combined with ML to compare how wild-type and mutant antibodies bind their antigen.</li>
+        <li><strong>Clinical trial:</strong> Developing a biomarker to find responders of a phase 1 trial oncology drug by analysing longitudinal immune cell data for experimental industry collaborators at Zumutor Biologics.</li>
+      </ul>
+    </article>
+    <!-- ENTRY END -->
+
+    <article class="entry">
+      <div class="entry-head">
+        <h3>Research Assistant</h3>
+        <p class="date">June 2025 – May 2026</p>
+      </div>
+      <p class="entry-sub">With <a href="https://www.iiserpuneccblab.com/current" rel="noopener">Prof. Arnab Mukherjee</a>, IISER Pune</p>
+      <ul>
+        <li><strong>AlphaToBeta:</strong> Built a deep reinforcement learning framework for protein sequence design in PyTorch. It proposes amino-acid mutations that drive α-helix → β-sheet transitions, using ESM protein-language-model embeddings and ESMFold. Trained with PPO using the Open-AI Gymnasium RL library and extended the reward with the residue composition within 6&nbsp;Å of the mutated segment to learn which local environments favour β-sheet formation.</li>
+        <li><strong>ML collective variables:</strong> Developed machine-learned collective variables for RNA folding (TICA, LDA, autoencoders via mlcolvar), with water coordinates as inputs to CVs in enhanced-sampling free-energy calculations (PLUMED, GROMACS).</li>
+      </ul>
+      <p class="tools">Tools: RDKit, VAE, ESM, ESMFold, stable-baselines3, PLUMED, mlcolvar, TICA, LDA, autoencoders</p>
+    </article>
+
+    <article class="entry">
+      <div class="entry-head">
+        <h3>Master’s Thesis / Industrial Research Internship</h3>
+        <p class="date">May 2024 – May 2025</p>
+      </div>
+      <p class="entry-sub">Supervisor: Dr. Struan Robertson, Materials Studio, BIOVIA, Dassault Systèmes, Cambridge, UK &middot;
+        <a href="https://drive.google.com/file/d/1mTRzf2BTSD2D9-RLOKNoDKcPTE7nvVoN/view?usp=sharing" rel="noopener">Thesis report</a></p>
+      <ul>
+        <li>Built a comprehensive multiscale modelling framework for Li-ion cathode manufacturing that links granular dynamics (DEM), atomistic and mesoscale MD (LAMMPS, Materials Studio), and ML-based force-field parameterization.</li>
+        <li>Implemented methods from the literature in C++ (100 times faster than previous work), and wrote Python, Perl, and Fiji pipelines to compute porosity and tortuosity from images.</li>
+        <!-- TODO: a word seems to be missing after "hard-to-determine" in the CV; fix here and in the CV -->
+        <li>Ran sensitivity analyses on experimentally hard-to-determine to guide predictive material and process design.</li>
+        <li>Benchmarked performance of Materials Studio against LAMMPS and found parameters that led to 2.5 times speed up in simulations.</li>
+        <li>Methods and workflows developed in this project were integrated into BIOVIA Materials Studio (2025 Release) Granular Dynamics package, making them available to industrial users.</li>
+      </ul>
+    </article>
+
+    <!-- Earlier undergraduate projects are collapsed to keep the page short.
+         Move an <article> outside <details> to show it by default. -->
+    <details class="earlier">
+      <summary>Earlier undergraduate projects (2022–2024)</summary>
+
+      <article class="entry">
+        <div class="entry-head">
+          <h3>Semester Project: CNN-based classification of particle trajectories</h3>
+          <p class="date">Jan 2024 – Apr 2024</p>
+        </div>
+        <p class="entry-sub">With <a href="https://inspirehep.net/authors/1055468" rel="noopener">Prof. Sourabh Dube</a>, IISER Pune</p>
+        <ul>
+          <li>Developed and trained a convolutional neural network to classify low/high-<i>p</i><sub>T</sub> and displaced/smeared lepton tracks, targeting trigger-level applications at the Large Hadron Collider at CERN (<a href="https://github.com/quark-knight/CNN" rel="noopener">GitHub repository</a>).</li>
+        </ul>
+      </article>
+
+      <article class="entry">
+        <div class="entry-head">
+          <h3>Semester Project: Clustering problem of TNFR1</h3>
+          <p class="date">Aug 2023 – Nov 2023</p>
+        </div>
+        <p class="entry-sub">With <a href="https://www.iiserpune.ac.in/research/department/physics/people/faculty/regular-faculty/apratim-chatterji/249" rel="noopener">Dr. Apratim Chatterji</a>, IISER Pune</p>
+        <ul>
+          <li>Computationally modeled thermodynamic clustering of TNFR1 (Tumor Necrosis Factor Receptor 1) membrane protein using a modified Ising model and Monte Carlo simulations with consideration of cell membrane curvature.</li>
+        </ul>
+      </article>
+
+      <article class="entry">
+        <div class="entry-head">
+          <h3>Summer Project: Classification of leptons</h3>
+          <p class="date">Summer 2023</p>
+        </div>
+        <p class="entry-sub">With <a href="https://iiserpune.irins.org/profile/94887" rel="noopener">Prof. Sourabh Dube</a>, IISER Pune</p>
+        <ul>
+          <li>Studied fundamentals of particle physics, detector design, particle reconstruction, identification, and analysis methods in high-energy particle physics. Used ROOT-based data analysis to identify properties of leptons to classify them based on their sources in Monte Carlo samples of pp collisions (<a href="https://studentsiiserpuneacin-my.sharepoint.com/:b:/g/personal/aditya_shukla_students_iiserpune_ac_in/EcUSpXQQ0E1Kn9CqmGnX4vYBs7trJReKX2qMKXe4KNbiNQ?e=XYEVM0" rel="noopener">project report</a>).</li>
+        </ul>
+      </article>
+
+      <article class="entry">
+        <div class="entry-head">
+          <h3>Semester Project: Synthesis of TiC/N based nanocomposite</h3>
+          <p class="date">Jan 2023 – Apr 2023</p>
+        </div>
+        <p class="entry-sub">With <a href="https://scholar.google.com/citations?user=I_pDPJYAAAAJ&amp;hl=en" rel="noopener">Prof. Satishchandra Ogale</a>, IISER Pune</p>
+        <ul>
+          <li>Reviewed literature to find suitable materials to work on, then synthesized and characterized Titanium-Nitrogen-Carbon nanocomposites for hydrogen evolution reaction, possibly a novel composite as per the initial XRD data.</li>
+        </ul>
+      </article>
+
+      <article class="entry">
+        <div class="entry-head">
+          <h3>Summer Project: Quantization effects in 2D quantum wells</h3>
+          <p class="date">Summer 2022</p>
+        </div>
+        <p class="entry-sub">With <a href="https://iiserpune.irins.org/profile/229782" rel="noopener">Dr. Ashish Arora</a>, IISER Pune</p>
+        <ul>
+          <li>Studied quantization effects in 2D quantum wells and numerically calculated transition energy for AlGaAs/GaAs heterojunction and verified it against the experimental data (<a href="https://studentsiiserpuneacin-my.sharepoint.com/:b:/g/personal/aditya_shukla_students_iiserpune_ac_in/EfdJmVDa48dLsU13xpOqMzQBnaH24a3MvIcWjg9Eq8bi8A?e=d7puR9" rel="noopener">project report</a>).</li>
+        </ul>
+      </article>
+    </details>
+  </section>
+
+  <!-- ==========================================================
+       5. POSTERS & REPORTS
+       (No peer-reviewed publications or preprints are listed in the CV.
+       When you have one, copy a <li class="pub"> block to the top and
+       consider renaming this section "Publications & Posters".)
+       ========================================================== -->
+  <section class="section container" id="outputs" aria-labelledby="outputs-h">
+    <h2 id="outputs-h">Posters &amp; Reports</h2>
+
+    <h3 class="subhead">Posters</h3>
+    <ol class="pubs">
+      <!-- PUBLICATION START -->
+      <li class="pub">
+        <p><strong>Aditya Shukla</strong>. Poster on master’s thesis work. <em>ICTP-ICTS Winter School on Quantitative Systems Biology</em>, ICTP, Trieste, Italy &amp; ICTS-TIFR, India, January 2025.</p>
+        <p class="pub-links"><a href="https://drive.google.com/file/d/1MRbxsqnQlGA1hEBJlSbnYj08uUbSGoz5/view?usp=sharing" rel="noopener">[Poster PDF]</a></p>
+      </li>
+      <!-- PUBLICATION END -->
+    </ol>
+
+    <h3 class="subhead">Thesis &amp; technical reports</h3>
+    <ol class="pubs">
+      <li class="pub">
+        <p><strong>Aditya Shukla</strong>. <em>Applications of multi-scale simulations to battery material modeling</em>. Master’s thesis, BS-MS Dual Degree, IISER Pune; industrial research internship at BIOVIA, Dassault Systèmes, Cambridge, UK, 2025.</p>
+        <p class="pub-links"><a href="https://drive.google.com/file/d/1mTRzf2BTSD2D9-RLOKNoDKcPTE7nvVoN/view?usp=sharing" rel="noopener">[PDF]</a></p>
+      </li>
+      <li class="pub">
+        <p><strong>Aditya Shukla</strong>. <em>Classification of leptons</em>. Summer project report, IISER Pune (with Prof. Sourabh Dube), 2023.</p>
+        <p class="pub-links"><a href="https://studentsiiserpuneacin-my.sharepoint.com/:b:/g/personal/aditya_shukla_students_iiserpune_ac_in/EcUSpXQQ0E1Kn9CqmGnX4vYBs7trJReKX2qMKXe4KNbiNQ?e=XYEVM0" rel="noopener">[PDF]</a></p>
+      </li>
+      <!-- TODO: the CV just says "Semester Project 2023". Which of the two 2023 semester
+           projects is this (TiC/N with Prof. Ogale, or TNFR1 with Dr. Chatterji)? Add the title. -->
+      <li class="pub">
+        <p><strong>Aditya Shukla</strong>. Semester project report, IISER Pune, 2023.</p>
+        <p class="pub-links"><a href="https://studentsiiserpuneacin-my.sharepoint.com/:b:/g/personal/aditya_shukla_students_iiserpune_ac_in/ETterdlHkphEn8Pv4wpztmcBTz6nD0Ssqgb94HFslvzGyQ?e=nd2tNm" rel="noopener">[PDF]</a></p>
+      </li>
+      <li class="pub">
+        <p><strong>Aditya Shukla</strong>. <em>Quantization effects in 2D quantum wells</em>. Summer project report, IISER Pune (with Dr. Ashish Arora), 2022.</p>
+        <p class="pub-links"><a href="https://studentsiiserpuneacin-my.sharepoint.com/:b:/g/personal/aditya_shukla_students_iiserpune_ac_in/EfdJmVDa48dLsU13xpOqMzQBnaH24a3MvIcWjg9Eq8bi8A?e=d7puR9" rel="noopener">[PDF]</a></p>
+      </li>
+    </ol>
+  </section>
+
+  <!-- ==========================================================
+       6. PROJECTS
+       Copy one <article class="card"> block to add a project.
+       ========================================================== -->
+  <section class="section container" id="projects" aria-labelledby="projects-h">
+    <h2 id="projects-h">Projects</h2>
+    <div class="cards">
+
+      <!-- PROJECT START -->
+      <article class="card">
+        <h3>AlphaToBeta</h3>
+        <p>A deep reinforcement learning framework for protein sequence design. It proposes amino-acid mutations that drive α-helix → β-sheet transitions, using ESM protein-language-model embeddings and ESMFold.</p>
+        <ul class="tags" aria-label="Tools">
+          <li>PyTorch</li><li>PPO</li><li>Gymnasium</li><li>ESM</li><li>ESMFold</li>
+        </ul>
+        <p class="card-links"><a href="https://github.com/quark-knight/AlphaToBeta-master" rel="noopener">Code</a></p>
+      </article>
+      <!-- PROJECT END -->
+
+      <article class="card">
+        <h3>CNN-based trajectory classification</h3>
+        <p>A convolutional neural network to classify low/high-<i>p</i><sub>T</sub> and displaced/smeared lepton tracks on a toy detector model, targeting trigger-level applications at the Large Hadron Collider at CERN.</p>
+        <ul class="tags" aria-label="Tools">
+          <li>CNNs</li>
+        </ul>
+        <p class="card-links"><a href="https://github.com/quark-knight/CNN" rel="noopener">Code</a></p>
+      </article>
+
+      <!-- TODO: the CV only says "BAGEL contributions". Add one or two sentences on what
+           BAGEL is and what you contributed, plus the tools used. -->
+      <article class="card">
+        <h3>BAGEL contributions</h3>
+        <p>Code contributions to BAGEL.</p>
+        <p class="card-links"><a href="https://github.com/quark-knight/bagel_aditya_s" rel="noopener">Code</a></p>
+      </article>
+
+      <article class="card">
+        <h3>Digital museum: G.&nbsp;N. Ramachandran</h3>
+        <p>Conceptualized and developed a digital museum (prototype) on renowned structural biologist G.&nbsp;N. Ramachandran, as part of the Student SciComm Fellowship (2023).</p>
+        <ul class="tags" aria-label="Tools">
+          <li>SketchUp</li><li>Notion</li><li>Unity</li><li>Blender</li>
+        </ul>
+        <p class="card-links"><a href="https://adityashukla.itch.io/g-n-ramachandran-digital-museum" rel="noopener">Prototype</a></p>
+      </article>
+
+      <article class="card">
+        <h3>Short documentary on colour blindness</h3>
+        <p>Directed, edited and animated a PSA / short documentary on colour blindness.</p>
+        <p class="card-links"><a href="https://www.youtube.com/watch?v=bITXVIpcMyw" rel="noopener">Watch</a></p>
+      </article>
+
+      <article class="card">
+        <h3>Interactive tour of the CMS detector</h3>
+        <p>An interactive tour of the CMS detector of the LHC, along with some physics-based games.</p>
+        <ul class="tags" aria-label="Tools">
+          <li>Blender</li><li>Unity</li>
+        </ul>
+        <!-- TODO: add a link if one exists:
+        <p class="card-links"><a href="#">Demo</a></p> -->
+      </article>
+
+    </div>
+  </section>
+
+  <!-- ==========================================================
+       7. SKILLS  (groups follow the CV)
+       ========================================================== -->
+  <section class="section container" id="skills" aria-labelledby="skills-h">
+    <h2 id="skills-h">Skills</h2>
+    <dl class="skills">
+      <div><dt>Machine learning</dt><dd>PyTorch, reinforcement learning (Gymnasium), transformers/ESM, AlphaFold, VAEs and autoencoders, CNNs, mlcolvar, TICA/LDA/UMAP</dd></div>
+      <div><dt>Simulation</dt><dd>GROMACS, LAMMPS, CP2K, PLUMED, GAMESS, Granular dynamics (DEM), Materials Studio</dd></div>
+      <div><dt>Programming</dt><dd>Python, C/C++ (MPI, OpenMP), C#, Perl, HTML+CSS</dd></div>
+      <div><dt>Analysis</dt><dd>RDKit, MATLAB, ROOT, Image analysis with Fiji</dd></div>
+      <div><dt>Experimental</dt><dd>XRD, STM, NMR, Confocal microscopy</dd></div>
+      <div><dt>Multimedia</dt><dd>Adobe Premiere Pro, Adobe Illustrator, Blender 3D, Unity and Unreal game engines</dd></div>
+      <div><dt>Tools</dt><dd>Bash/Shell, LaTeX, GNU/Linux/WSL, Anaconda, git, Arduino</dd></div>
+      <div><dt>Languages</dt><dd>English (Fluent), Hindi (Fluent), Urdu (Proficient), Spanish (Intermediate), Dutch (Basic)</dd></div>
+    </dl>
+  </section>
+
+  <!-- ==========================================================
+       8. AWARDS, SCHOLARSHIPS & ACHIEVEMENTS
+       ========================================================== -->
+  <section class="section container" id="awards" aria-labelledby="awards-h">
+    <h2 id="awards-h">Fellowships &amp; Awards</h2>
+    <ul class="plain-list">
+      <li>BIOVIA, Dassault Systèmes funding for the industrial master’s thesis (INR 4,20,000)</li>
+      <li>SMC Student SciComm Fellowship, British Council Partnership Grant (INR 25,000)</li>
+      <li>Trimurti Pvt Ltd Scholarship for academic year excellence, 2023–2024 (INR 25,000)</li>
+      <li>Ranked 2043rd in the prestigious IIT JEE: Advanced, in 2020, among more than 1 million candidates across India</li>
+    </ul>
+
+    <!-- Schools & workshops: not in your requested list, but in the CV and relevant for
+         PhD applications. Delete this block if you don't want it. -->
+    <h3 class="subhead" id="schools">Selected schools &amp; workshops</h3>
+    <ul class="timeline">
+      <!-- TODO: confirm these dates (the CV says Dec 21, 2025 – Jan 1, 2026) -->
+      <li><span class="date">Dec 2025 – Jan 2026</span><span>Winter School on Biological Physics 2026, ICTS-TIFR, Bangalore</span></li>
+      <li><span class="date">Jan 2026</span><span><a href="https://events.csa.iisc.ac.in/rlworkshop2026/" rel="noopener">Workshop on Reinforcement Learning 2026</a>, Indian Institute of Science (IISc), Bangalore</span></li>
+      <li><span class="date">Dec 2025</span><span><a href="https://ikdd.acm.org/cods-2025/index.php" rel="noopener">International Conference on Data Science (CODS-2025)</a>; volunteer organizer</span></li>
+      <li><span class="date">Aug 2025</span><span><a href="https://sites.google.com/view/openmm-ufedmm/home" rel="noopener">Workshop on OpenMM/UFEDMM</a> (Mark Tuckerman, N.&nbsp;N. Nair, Charlles Abreu)</span></li>
+      <li><span class="date">Mar 2025</span><span><a href="https://www.mrs.org/publications-digital-content/webinars-workshops/virtual-workshops/scientific-generative-ai-for-materials-science" rel="noopener">Workshop on Scientific Generative AI for Materials Science</a>, Materials Research Society &amp; Nature</span></li>
+      <li><span class="date">Jan 2025</span><span><a href="https://www.icts.res.in/program/qsb2024" rel="noopener">ICTP-ICTS Winter School on Quantitative Systems Biology</a>, ICTP Trieste &amp; ICTS-TIFR; presented a poster of master’s work</span></li>
+      <li><span class="date">Sept 2024</span><span><a href="https://mudshark.brookes.ac.uk/Meetings/India2024/Timetable" rel="noopener">Workshop on Metabolic Network Modeling</a>, NCL Pune &amp; Oxford Brookes University; teaching assistant</span></li>
+      <li><span class="date">June 2024</span><span><a href="https://www.icts.res.in/lectures/sc-2024" rel="noopener">ICTS Summer School on Dynamics of Biological Systems</a>, ICTS-TIFR, Bangalore</span></li>
+      <li><span class="date">Mar 2024</span><span><a href="https://sites.google.com/view/bacgronet-wksp/home" rel="noopener">Workshop on Bacterial Growth Networks</a>, Athale Lab, IISER Pune; teaching assistant</span></li>
+      <li><span class="date">Feb 2024</span><span><a href="https://indico.cern.ch/event/1345230/" rel="noopener">Workshop on Frontier Topics in Collider Physics</a>, TIFR Mumbai – IISER Pune</span></li>
+      <li><span class="date">June 2023</span><span>Pedagogical lecture series on biological physics, Prof. Jie Xiao (Johns Hopkins University), IISER Pune</span></li>
+    </ul>
+  </section>
+
+  <!-- ==========================================================
+       9. TEACHING, LEADERSHIP & SERVICE
+       ========================================================== -->
+  <section class="section container" id="service" aria-labelledby="service-h">
+    <h2 id="service-h">Teaching, Leadership &amp; Service</h2>
+
+    <h3 class="subhead">Teaching</h3>
+    <ul class="timeline">
+      <li><span class="date">2024</span><span>Teaching Assistant, Python &amp; ScrumPy: Workshop on Metabolic Network Modeling, NCL Pune &amp; Oxford Brookes University</span></li>
+      <li><span class="date">2024</span><span>Teaching Assistant, MATLAB: Workshop on Bacterial Growth Networks, IISER Pune</span></li>
+      <!-- TODO: CV says "40+ grad students" in one place and "40+ undergraduate, and graduate students" in another -->
+      <li><span class="date">Jan 2024</span><span>Instructor: 3-day workshop on scientific illustration and animation using Blender 3D; trained 40+ undergraduate and graduate students</span></li>
+    </ul>
+
+    <h3 class="subhead">Science communication &amp; outreach</h3>
+    <ul class="timeline">
+      <li><span class="date">Aug 2023 – July 2025</span><span>SciComm Internship, <a href="https://www.sciencemediacentre.in/" rel="noopener">Science Media Center, IISER Pune</a>: provided admin support (billing, payments, documentation) for a SciComm project headed by Dr. Emma Weitkamp (UWE Bristol) and Dr. Shalini Sharma (IISER Pune), funded by a British Council Going Global Partnership Grant and supported by Nature India and SJAI; translated and transcribed a 2-hour podcast from Hindi to English for rural science journalism</span></li>
+      <li><span class="date">Aug 2023 – Nov 2023</span><span>Student SciComm Fellowship, Science Media Center, IISER Pune &amp; University of Bristol &amp; Nature India: digital museum on G.&nbsp;N. Ramachandran (see Projects)</span></li>
+      <li><span class="date">Oct 2024</span><span>Volunteer organizer, <a href="https://www.sjai.in/sjai-conference-2024" rel="noopener">Science Journalists Association of India conference 2024</a></span></li>
+    </ul>
+
+    <h3 class="subhead">Leadership</h3>
+    <ul class="timeline">
+      <li><span class="date">2022</span><span>General Coordinator, <a href="http://mimamsa.iiserpune.ac.in/" rel="noopener">Mimamsa</a>, India’s biggest and most prestigious undergraduate science competition, held at IISER Pune: led 250+ volunteers; allocated a budget of ₹10+ lakhs and handled finances; conducted two stages with 1200 teams from 200+ colleges</span></li>
+      <li><span class="date">2022</span><span>General Coordinator, <a href="https://sites.google.com/students.iiserpune.ac.in/scienceclub" rel="noopener">Science Club, IISER Pune</a>: conducted talks and seminars, led a team of volunteers, interviewed scientists (e.g. Bruce Alberts, Lee Cronin), organized science exhibitions and games</span></li>
+      <li><span class="date">2023</span><span>General Coordinator, <a href="https://sites.google.com/a/sac.iiserpune.ac.in/the-drama-club-iiser-pune" rel="noopener">Naqaab, Drama Club, IISER Pune</a>: designed, directed and conducted plays, dramatic poetry and improv sessions</span></li>
+      <li><span class="date">2023</span><span>Web Development Coordinator, <a href="https://www.tedxiiserpune.com/" rel="noopener">TEDx IISER Pune</a>: maintained and updated the event website, handled ticket sales and payments</span></li>
+    </ul>
+
+    <h3 class="subhead">Volunteering</h3>
+    <ul class="timeline">
+      <li><span class="date">2022 – 2025</span><span><a href="https://www.iiserpune.ac.in/engage/outreach-and-training/student-outreach/disha" rel="noopener">Disha</a>, a social initiative of IISER Pune (education for underprivileged children): Science Nurture Program, Spread The Smile, and Abhyashika programs</span></li>
+      <li><span class="date">2024</span><span>Kaleidoscope, Cinema Club: video editing and sound design for short films</span></li>
+      <li><span class="date">2023</span><span>Satrangi, LGBTQ+ collective of IISER Pune: volunteer at the annual pride parade and other events</span></li>
+    </ul>
+  </section>
+
+  <!-- ==========================================================
+       10. CONTACT
+       ========================================================== -->
+  <section class="section container" id="contact" aria-labelledby="contact-h">
+    <h2 id="contact-h">Contact</h2>
+    <p>The best way to reach me is by email: <a href="mailto:aditya.shukla@students.iiserpune.ac.in">aditya.shukla@students.iiserpune.ac.in</a></p>
+    <ul class="link-row">
+      <li><a class="btn" href="https://github.com/quark-knight" rel="noopener"><svg class="icon" aria-hidden="true"><use href="#i-github"/></svg>GitHub</a></li>
+      <li><a class="btn" href="https://www.linkedin.com/in/aditya-shukla-IISER" rel="noopener"><svg class="icon" aria-hidden="true"><use href="#i-linkedin"/></svg>LinkedIn</a></li>
+      <li><a class="btn" href="https://orcid.org/0009-0006-5209-7213" rel="noopener"><svg class="icon" aria-hidden="true"><use href="#i-orcid"/></svg>ORCID</a></li>
+      <li><a class="btn btn-primary" href="assets/cv.pdf" download><svg class="icon" aria-hidden="true"><use href="#i-file"/></svg>Download CV</a></li>
+    </ul>
+  </section>
+
+</main>
+
+<footer class="site-footer">
+  <div class="container">
+    <p>&copy; <span id="year">2026</span> Aditya Shukla &middot; Last updated November 2026</p>
+  </div>
+</footer>
+
+<script src="script.js" defer></script>
+</body>
+</html>
